@@ -60,8 +60,8 @@ public class Main extends AppCompatActivity
 
         mydb = new DBHelper(this);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        //FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        btnSpeak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 promptSpeechInput();
