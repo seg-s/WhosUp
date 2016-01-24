@@ -1,4 +1,4 @@
-package com.example.desele.whosup;
+package com.desele.whosupdexter;
 
 import org.junit.Test;
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_Friends" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Friends" />
+        <item android:id="@+id/nav_Calendar" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Calendar" />
+        <item android:id="@+id/nav_Events" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Events" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_Profile" android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Profile" />
+            <item android:id="@+id/nav_Switch" android:icon="@android:drawable/ic_menu_send"
+                android:title="Availability" />
+        </menu>
+    </item>
+
+</menu>
